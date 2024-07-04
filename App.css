@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header ul li{
+  @apply px-2;
+}
+.bg-main{
+  background-color: whitesmoke;
+}
+.bg-sub{
+  background-color: rgb(178, 53, 241);
+  
+}
+.bg-link{
+  color: rgb(36, 36, 144);
+}
+.mobile{
+  @apply fixed bg-gray-600  top-10 left-0 w-full h-1/4
+}
+.mobile  li{
+  @apply  w-full h-full text-center border-b-2;
+}
+.bg-ordinary{
+  background-color: rgb(193, 93, 236);
+  
+}
+.bg-medium{
+  background-color: rgba(252, 127, 233, 0.815);
+  height: 300px;
+}
+
+/* .bg-single{
+  background-color: rgb(106, 106, 241);
+  height: 300px;
+} */
+
+.bg-small{
+  background-color: blue;
+}
+
+
+
+.button{
+ 
+@apply bg-medium px-4 font-bold border-2  
+}
+
+.btn{
+  color:white;
+  border: solid;
+  background-color: rgb(139, 139, 239)
+}
+
+
+label{
+  font-size: 25px;
+}
+
+
+
+.skill{
+  display: flex;
+  flex-direction: column;
+  
+  
+
+}
+
+h2{
+  background-color: aqua;
+  width: 400px;
+  height: 10px;
+  margin-left: 200px;
+  border-radius: 12px;
+}
+h3{
+  background-color:blue;
+  width: 200px;
+  height: 10px;
+  border-top-left-radius: 12px;
+}
